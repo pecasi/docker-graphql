@@ -31,6 +31,6 @@ jobs:
 
     - name: Push Docker image
       run: |
-        docker push borino1/docker-graphql:0.0.1 .
+        docker push borino1/docker-graphql:0.0.1
       
       # docker build . --file Dockerfile --tag my-image-name:$(date +%s)
